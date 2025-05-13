@@ -5,9 +5,9 @@ import re
 app = Flask(__name__)
 
 # Configuración de API Keys
-IPINFO_API_KEY = "208de512423486"
-TELEGRAM_BOT_TOKEN = "6485736942:AAGlVxaxzZT93yC9JG8QE44HijwkhnKfJ8k"
-CHAT_ID = "2044147106"
+IPINFO_API_KEY = "Tu API ipinfo"
+TELEGRAM_BOT_TOKEN = "Tu token"
+CHAT_ID = "Tu ID"
 
 # Función para escapar caracteres especiales en MarkdownV2
 def escape_markdown(text):
@@ -54,4 +54,4 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 
-#pip install python-telegram-bot
+
